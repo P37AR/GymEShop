@@ -1,0 +1,6 @@
+2022-09-09 19:32:13.3489|0|DEBUG|GymEShop.Program|init main 
+2022-09-09 19:32:14.5555|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-09-09 19:32:14.5576|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-09-09 19:32:14.5576|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-09-09 19:32:25.3670|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-09-09 19:32:31.2681|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 

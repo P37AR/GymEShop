@@ -1,0 +1,729 @@
+2022-02-16 02:16:13.9920|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 02:16:14.9130|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 02:16:14.9130|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 02:16:14.9130|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 02:16:38.4267|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 02:16:39.4722|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 02:16:39.4722|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 02:16:39.4722|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 02:21:44.6645|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 02:21:45.5214|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 02:21:45.5214|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 02:21:45.5214|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 02:21:50.5293|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 02:21:53.4019|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 02:21:53.4112|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 02:21:57.8176|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 02:21:57.8176|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 02:22:01.2020|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 02:22:08.2891|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 02:25:30.6712|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 02:25:31.6330|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 02:25:31.6330|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 02:25:31.6330|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 02:25:34.3750|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 02:25:37.0128|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 02:25:45.8537|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 02:25:48.8739|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 02:25:48.8798|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 02:56:09.2172|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 02:56:10.1254|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 02:56:10.1254|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 02:56:10.1294|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 03:01:38.2761|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 03:01:39.1204|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 03:01:39.1204|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 03:01:39.1204|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 03:02:15.0213|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 03:02:15.9709|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 03:02:15.9709|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 03:02:15.9709|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 03:02:43.4111|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'GymEShop.Service.Interface.OrderService' while attempting to activate 'GymEShop.Controllers.API.AdminController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-16 03:05:05.0294|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 03:05:05.8186|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 03:05:05.8186|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 03:05:05.8186|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 03:07:19.7213|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 03:07:20.5194|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 03:07:20.5194|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 03:07:20.5194|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 03:07:24.0661|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.Text.Json.JsonException: A possible object cycle was detected which is not supported. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.JsonSerializer.Write(Utf8JsonWriter writer, Int32 originalWriterDepth, Int32 flushThreshold, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteAsyncCore(Stream utf8Json, Object value, Type inputType, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-16 03:16:21.6571|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 03:16:22.4799|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 03:16:22.4799|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 03:16:22.4799|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 03:16:43.7876|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 03:16:44.6395|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 03:16:44.6395|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 03:16:44.6395|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 03:18:20.8126|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 03:18:21.7190|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 03:18:21.7190|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 03:18:21.7190|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 03:58:49.3877|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 03:58:50.3180|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 03:58:50.3254|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 03:58:50.3254|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 03:58:54.6269|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 04:12:32.4179|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 04:12:33.3255|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 04:12:33.3255|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 04:12:33.3255|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 04:17:08.6765|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 04:17:09.6691|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 04:17:09.6691|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 04:17:09.6691|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 04:17:24.4652|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 04:17:32.1073|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 04:17:34.8570|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 04:17:38.3917|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 04:17:38.3917|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 04:18:11.4071|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 04:18:12.4241|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 04:18:12.4241|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 04:18:12.4341|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 05:48:14.9522|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 05:48:23.9988|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 05:48:28.0873|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 05:48:28.0873|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 05:48:32.2931|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 06:27:54.2252|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 06:27:55.2564|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 06:27:55.2564|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 06:27:55.2564|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 06:27:59.7255|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 09:40:09.7724|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 09:40:10.7372|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 09:40:10.7372|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 09:40:10.7476|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 09:47:20.5178|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 09:47:21.5070|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 09:47:21.5155|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 09:47:21.5155|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 10:27:27.1064|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 10:27:27.3724|0|ERROR|GymEShop.Program|Stopped program because of exception System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: '{' is invalid after a property name. Expected a ':'. LineNumber: 4 | BytePositionInLine: 11.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumePropertyName()
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenUntilAfterAllCommentsAreSkipped(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, Utf8JsonReader reader, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedBytes)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at Microsoft.Extensions.Hosting.HostBuilder.BuildAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at GymEShop.Program.Main(String[] args) in C:\Users\P37AR\source\repos\GymEShop\GymEShop\Program.cs:line 22
+2022-02-16 10:31:06.6454|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 10:31:06.9192|0|ERROR|GymEShop.Program|Stopped program because of exception System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: '{' is invalid after a property name. Expected a ':'. LineNumber: 4 | BytePositionInLine: 11.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumePropertyName()
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenUntilAfterAllCommentsAreSkipped(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, Utf8JsonReader reader, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedBytes)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at Microsoft.Extensions.Hosting.HostBuilder.BuildAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at GymEShop.Program.Main(String[] args) in C:\Users\P37AR\source\repos\GymEShop\GymEShop\Program.cs:line 22
+2022-02-16 10:32:38.0307|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 10:32:38.3193|0|ERROR|GymEShop.Program|Stopped program because of exception System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: '{' is invalid after a property name. Expected a ':'. LineNumber: 4 | BytePositionInLine: 11.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumePropertyName()
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenUntilAfterAllCommentsAreSkipped(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, Utf8JsonReader reader, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedBytes)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at Microsoft.Extensions.Hosting.HostBuilder.BuildAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at GymEShop.Program.Main(String[] args) in C:\Users\P37AR\source\repos\GymEShop\GymEShop\Program.cs:line 22
+2022-02-16 10:33:31.7879|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 10:33:32.0510|0|ERROR|GymEShop.Program|Stopped program because of exception System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: '{' is invalid after a property name. Expected a ':'. LineNumber: 4 | BytePositionInLine: 11.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumePropertyName()
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenUntilAfterAllCommentsAreSkipped(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, Utf8JsonReader reader, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedBytes)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at Microsoft.Extensions.Hosting.HostBuilder.BuildAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at GymEShop.Program.Main(String[] args) in C:\Users\P37AR\source\repos\GymEShop\GymEShop\Program.cs:line 22
+2022-02-16 10:34:17.9294|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 10:34:18.2203|0|ERROR|GymEShop.Program|Stopped program because of exception System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: '{' is invalid after a property name. Expected a ':'. LineNumber: 4 | BytePositionInLine: 11.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumePropertyName()
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenUntilAfterAllCommentsAreSkipped(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, Utf8JsonReader reader, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedBytes)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at Microsoft.Extensions.Hosting.HostBuilder.BuildAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at GymEShop.Program.Main(String[] args) in C:\Users\P37AR\source\repos\GymEShop\GymEShop\Program.cs:line 22
+2022-02-16 10:35:15.8650|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 10:35:16.1173|0|ERROR|GymEShop.Program|Stopped program because of exception System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: '{' is invalid after a property name. Expected a ':'. LineNumber: 4 | BytePositionInLine: 11.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumePropertyName()
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenUntilAfterAllCommentsAreSkipped(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, Utf8JsonReader reader, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedBytes)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at Microsoft.Extensions.Hosting.HostBuilder.BuildAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at GymEShop.Program.Main(String[] args) in C:\Users\P37AR\source\repos\GymEShop\GymEShop\Program.cs:line 22
+2022-02-16 10:38:10.1721|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 10:38:10.5270|0|ERROR|GymEShop.Program|Stopped program because of exception System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: '{' is invalid after a property name. Expected a ':'. LineNumber: 4 | BytePositionInLine: 11.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumePropertyName()
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenUntilAfterAllCommentsAreSkipped(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, Utf8JsonReader reader, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedBytes)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at Microsoft.Extensions.Hosting.HostBuilder.BuildAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at GymEShop.Program.Main(String[] args) in C:\Users\P37AR\source\repos\GymEShop\GymEShop\Program.cs:line 22
+2022-02-16 10:39:10.0981|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 10:39:11.1956|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 10:39:11.1956|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 10:39:11.2000|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 10:39:17.7391|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 10:39:21.7106|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 10:39:21.7165|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 10:40:41.1119|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 10:40:42.1774|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 10:40:42.1774|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 10:40:42.1824|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 10:41:47.0154|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 10:41:47.9832|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 10:41:47.9832|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 10:41:47.9832|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 10:43:05.4075|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 10:43:06.3112|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 10:43:06.3112|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 10:43:06.3112|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 10:45:01.6474|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 10:45:02.5899|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 10:45:02.5899|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 10:45:02.5899|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 10:45:05.2310|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 10:46:55.2670|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 10:46:56.3014|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 10:46:56.3091|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 10:46:56.3091|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 10:46:59.4705|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 10:47:03.1360|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 10:49:28.8254|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 10:49:29.8564|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 10:49:29.8564|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 10:49:29.8564|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 10:49:33.6300|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 10:51:10.7685|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 10:51:11.7623|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 10:51:11.7623|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 10:51:11.7623|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 10:51:43.0978|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-16 10:59:19.0959|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 10:59:20.1418|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 10:59:20.1418|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 10:59:20.1418|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 10:59:24.9554|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 10:59:29.5837|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 10:59:29.5837|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 11:02:08.7898|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 11:02:09.8135|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 11:02:09.8210|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 11:02:09.8210|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:12:07.7875|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:12:08.8019|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:12:08.8098|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:12:08.8098|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:12:32.0877|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:12:33.7679|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:13:59.4422|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:14:57.1129|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:15:19.0759|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:16:12.5676|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:16:49.4657|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:17:39.3984|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:18:49.8856|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:18:50.8972|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:18:50.8972|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:18:50.9011|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:18:52.3652|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:19:29.5720|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:19:30.4867|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:19:30.4867|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:19:30.4967|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:19:32.5711|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:20:24.1924|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:20:25.0918|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:20:25.0918|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:20:25.0918|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:20:27.3252|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:20:41.2997|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:20:50.4197|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:21:42.1982|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:21:43.2101|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:21:43.2101|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:21:43.2141|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:21:44.7010|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:22:27.3313|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:22:28.2316|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:22:28.2316|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:22:28.2316|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:22:31.7477|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:23:21.8024|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:23:22.8135|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:23:22.8135|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:23:22.8238|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:23:24.5008|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:24:12.5045|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:24:13.4917|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:24:13.4934|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:24:13.4934|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:24:15.1898|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:24:36.6753|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:25:43.1514|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:25:44.2078|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:25:44.2148|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:25:44.2148|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:25:46.7785|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:26:14.6171|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:26:26.9941|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:26:38.6744|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:26:42.1563|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:26:57.4339|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:27:04.3195|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:27:10.8446|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:27:21.0134|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:28:53.3237|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:29:31.4621|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:29:51.6792|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:30:04.8751|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:30:18.6658|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:31:05.2929|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:31:06.1732|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:31:06.1809|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:31:06.1809|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:31:08.3996|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:33:58.1610|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:33:59.0929|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:33:59.1004|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:33:59.1004|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:34:01.0921|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:36:16.8836|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:36:17.8031|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:36:17.8031|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:36:17.8031|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:36:19.3801|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:36:31.5858|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:36:32.5417|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:36:32.5417|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:36:32.5529|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:36:34.3712|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:36:40.3222|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 13:36:40.3222|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:37:50.5247|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:37:51.4872|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:37:51.4888|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:37:51.4888|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:37:53.2524|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:42:25.0232|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:42:26.0776|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:42:26.0845|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:42:26.0845|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:42:28.9920|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:42:32.0104|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:42:35.8325|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:42:56.7887|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:42:57.7916|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:42:57.7990|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:42:57.7990|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:42:59.4129|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:43:01.3976|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:43:04.6646|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:43:28.5345|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:43:29.5192|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:43:29.5192|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:43:29.5192|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:43:31.4241|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:43:34.6898|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:51:12.4565|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:51:13.5319|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:51:13.5319|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:51:13.5319|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:51:26.5937|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:51:30.3875|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 13:51:30.3950|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:52:51.3880|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:52:52.4044|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:52:52.4044|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:52:52.4044|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:52:54.6397|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 13:55:05.5869|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:55:06.6549|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:55:06.6549|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:55:06.6549|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:56:35.9394|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:56:36.9482|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:56:36.9559|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:56:36.9559|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:57:45.5101|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:57:46.4693|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:57:46.4693|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:57:46.4693|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:58:42.4697|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:58:43.5445|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:58:43.5445|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:58:43.5445|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 13:59:57.4032|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 13:59:58.4283|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 13:59:58.4283|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 13:59:58.4283|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 14:00:00.3097|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 14:02:16.2335|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 14:02:17.2250|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 14:02:17.2324|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 14:02:17.2324|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 14:13:36.7163|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 14:13:37.9292|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 14:13:37.9313|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 14:13:37.9313|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 14:15:08.7786|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 14:15:54.0411|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 14:15:55.0862|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 14:15:55.0862|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 14:15:55.0862|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 14:21:30.7864|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 14:21:31.8554|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 14:21:31.8554|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 14:21:31.8554|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 14:22:32.3233|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 14:22:33.4376|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 14:22:33.4449|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 14:22:33.4449|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 14:22:37.7257|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 14:22:41.4309|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 14:22:41.4309|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 14:24:42.8324|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 14:24:43.8046|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 14:24:43.8046|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 14:24:43.8046|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 14:24:47.4043|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 14:24:51.0753|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 14:24:54.0402|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 14:24:54.0402|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 14:24:58.2487|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 14:25:01.7287|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 14:25:01.7287|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:05:38.6895|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 15:05:39.7270|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:05:39.7350|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:05:39.7350|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 15:05:55.6395|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:05:57.2437|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:06:07.1876|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 15:06:07.1876|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:06:11.5458|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:06:14.0231|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 15:06:14.0231|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:06:44.9826|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 15:06:46.0426|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:06:46.0426|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:06:46.0475|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 15:06:49.4994|20102|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [EmailMessage] ([Id], [Content], [MailTo], [Status], [Subject])
+VALUES (@p0, @p1, @p2, @p3, @p4); 
+2022-02-16 15:06:49.5314|10000|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'GymEShop.Repository.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'MailTo'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:af3e00eb-e381-4c75-b8c9-5c902bf3b8c9
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess) Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'MailTo'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:af3e00eb-e381-4c75-b8c9-5c902bf3b8c9
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2022-02-16 15:08:45.4030|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 15:08:46.4113|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:08:46.4113|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:08:46.4213|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 15:09:11.6068|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:09:20.4561|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:09:26.2751|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 15:09:26.2805|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:10:04.0078|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:10:06.1937|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:10:32.7627|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 15:10:33.7309|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:10:33.7323|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:10:33.7323|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 15:10:39.5278|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:12:09.1044|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:12:35.1690|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:12:43.2324|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:12:45.9126|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:17:29.7013|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 15:17:31.2042|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:17:31.2042|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:17:31.2042|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 15:18:03.9644|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:18:07.1222|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 15:18:07.1222|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:18:11.1677|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:18:13.9322|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 15:18:13.9391|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:20:00.6682|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:21:45.0859|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 15:21:46.1449|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:21:46.1449|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:21:46.1449|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 15:21:49.9799|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:22:30.8142|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 15:22:31.7338|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:22:31.7338|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:22:31.7338|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 15:22:33.6030|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:22:37.9610|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:22:47.7094|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:22:57.6975|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:23:09.5998|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:23:54.4477|0|DEBUG|GymEShop.Program|init main 
+2022-02-16 15:23:55.5478|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-16 15:23:55.5478|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-16 15:23:55.5478|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-02-16 15:23:57.8532|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:48:54.2997|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:48:59.2715|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:49:07.6248|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:49:11.9842|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:49:14.8526|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-02-16 15:49:21.0253|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-02-16 15:49:21.0253|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 

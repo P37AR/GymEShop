@@ -1,0 +1,15 @@
+C:\Users\P37AR\source\repos\GymEShop\GymEShop.Service\bin\Debug\netcoreapp3.1\GymEShop.Service.deps.json
+C:\Users\P37AR\source\repos\GymEShop\GymEShop.Service\bin\Debug\netcoreapp3.1\GymEShop.Service.dll
+C:\Users\P37AR\source\repos\GymEShop\GymEShop.Service\bin\Debug\netcoreapp3.1\GymEShop.Service.pdb
+C:\Users\P37AR\source\repos\GymEShop\GymEShop.Service\bin\Debug\netcoreapp3.1\GymEShop.Domain.dll
+C:\Users\P37AR\source\repos\GymEShop\GymEShop.Service\bin\Debug\netcoreapp3.1\GymEShop.Repository.dll
+C:\Users\P37AR\source\repos\GymEShop\GymEShop.Service\bin\Debug\netcoreapp3.1\GymEShop.Domain.pdb
+C:\Users\P37AR\source\repos\GymEShop\GymEShop.Service\bin\Debug\netcoreapp3.1\GymEShop.Repository.pdb
+C:\Users\P37AR\source\repos\GymEShop\GymEShop.Service\obj\Debug\netcoreapp3.1\GymEShop.Service.csproj.AssemblyReference.cache
+C:\Users\P37AR\source\repos\GymEShop\GymEShop.Service\obj\Debug\netcoreapp3.1\GymEShop.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\P37AR\source\repos\GymEShop\GymEShop.Service\obj\Debug\netcoreapp3.1\GymEShop.Service.AssemblyInfoInputs.cache
+C:\Users\P37AR\source\repos\GymEShop\GymEShop.Service\obj\Debug\netcoreapp3.1\GymEShop.Service.AssemblyInfo.cs
+C:\Users\P37AR\source\repos\GymEShop\GymEShop.Service\obj\Debug\netcoreapp3.1\GymEShop.Service.csproj.CoreCompileInputs.cache
+C:\Users\P37AR\source\repos\GymEShop\GymEShop.Service\obj\Debug\netcoreapp3.1\GymEShop.Service.csproj.CopyComplete
+C:\Users\P37AR\source\repos\GymEShop\GymEShop.Service\obj\Debug\netcoreapp3.1\GymEShop.Service.dll
+C:\Users\P37AR\source\repos\GymEShop\GymEShop.Service\obj\Debug\netcoreapp3.1\GymEShop.Service.pdb

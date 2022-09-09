@@ -1,0 +1,10 @@
+2022-03-11 00:30:36.9517|0|DEBUG|GymEShop.Program|init main 
+2022-03-11 00:30:38.1732|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-03-11 00:30:38.1805|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-03-11 00:30:38.1805|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\P37AR\source\repos\GymEShop\GymEShop 
+2022-03-11 00:30:50.0199|0|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user b64ad47c-c6ae-412a-a74a-76c65c34694a. 
+2022-03-11 00:30:56.7233|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-03-11 00:31:07.4940|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-03-11 00:31:10.3020|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
+2022-03-11 00:31:13.6111|0|INFO|GymEShop.Service.Interface.ProductService|Product was successfuly added 
+2022-03-11 00:31:13.6153|0|INFO|GymEShop.Service.Interface.ProductService|Get All Products was called. 
